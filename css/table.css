@@ -1,0 +1,13 @@
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+table tr td{
+    border: 3px solid black;
+}
+thead{
+    font-weight: bold;
+}
+.w{
+    width: 50px;
+}
