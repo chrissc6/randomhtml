@@ -1,0 +1,35 @@
+body{
+    width:100%; 
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+    max-height: 300px;
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-family: 'Walter Turncoat';
+    border-bottom: 2px solid gray;
+}
+html{
+    background-color: black;
+}
+section{
+    width: 100%;
+}
+.picContainer{
+    display: table;
+    float: left;
+    min-height: 300px;
+    height: 300px;
+    width: calc(100% /3 - 3px);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.backContainer{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}

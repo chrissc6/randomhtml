@@ -1,0 +1,40 @@
+/* Element */
+li{
+
+}
+/* Class */
+.class{
+
+}
+/* Id */
+#id{
+
+}
+/* Star - all elements*/
+*{
+
+}
+/* Descendant Selector - every a inside of a li*/
+li a{
+
+}
+/* Adjacent Selector */
+h4 + ul{
+
+}
+/* Attribute Selector */
+input[type="text"]{
+
+}
+/* Nth of type */
+li:nth-of-type(2){
+
+}
+
+li:nth-last-of-type(even){
+    background-color: aliceblue;
+}
+
+li{
+    border: 1px solid black;
+}
