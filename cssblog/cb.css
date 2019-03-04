@@ -1,0 +1,30 @@
+body{
+    border: 20px solid gray;
+    padding: 10px;
+    max-width: 800px;
+    width: 80%;
+    margin: 10px auto;
+    font-family: 'Walter Turncoat';
+}
+.quote{
+    border-left: 5px solid rgb(105, 109, 141);
+    padding-left: 5px;
+}
+.date{
+    color: rgb(0, 76, 97);
+    text-transform: uppercase;
+}
+hr { 
+    border: 0; 
+    height: 0; /* Firefox... */ 
+    box-shadow: 0 0 10px 1px black; 
+} 
+hr:after { /* Not really supposed to work, but does */ 
+    content: "\00a0"; /* Prevent margin collapse */ 
+}
+.post{
+    margin-bottom: 25px;
+}
+html{
+    background-color: floralwhite;
+}
